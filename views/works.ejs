@@ -3,15 +3,18 @@
 <%- include('partials/menu-burger') %>
 <%- include('partials/breadcrumb') %>
 
+<script src="/js/app-works.js"></script>
+
 <section class="container__page-works taille-grille">
     <div class="container__page-work-cards">
         <% for (const work of works) { %>
         <div class="container__page-work-card" style="background-image: url(<%=work.bgImg%>);">
-            <p><%=work.category%></p>
-            <h2><%=work.title%></h2>
+            <div class="container__page-work-card-display">
+                <p class="container__page-work-card-display-category"><%=work.category%></p>
+                <h2 class="container__page-work-card-display-title"><%=work.title%></h2>
+            </div>
         </div>
         <% } %>
     </div>
 </section>
-
 <%- include('partials/footer') %>
