@@ -1,0 +1,122 @@
+@media screen and (max-width: 1680px) {
+    .container__header-text-title {
+        font-size: 70px;
+    }
+  }
+
+  @media screen and (max-width: 1608px) {
+    .container__header-left {
+        margin-right: -29rem;
+    }
+    .container__realisations-global-right-categories {
+      width: 60%;
+    }
+  }
+
+@media screen and (max-width: 1508px) {
+    .container__header-left {
+        margin-right: -32rem;
+    }
+    .container__realisations-global-right-categories {
+      width: 80%;
+    }
+  }
+
+  @media screen and (max-width: 1394px) {
+    .container__header-text-title {
+        font-size: 60px;
+        line-height: 5rem;
+    }
+    .container__realisations-global-left{
+      display:none;
+    }
+    .container__realisations-global-right-categories {
+      width: 50%;
+    }
+    .container__realisations-global-right{
+      margin-left: 0;
+  }
+  }
+
+@media screen and (max-width: 1340px) {
+    .container__header-right {
+        display: none;
+    }
+    .container__header-left {
+        margin-right: 0;
+    }
+    .container__header-text-p{
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 1160px) {
+  .container__footer-1-4 {
+    color: var(--white);
+    width: 47%;
+}
+}
+
+@media screen and (max-width: 1052px) {
+  .container__servcies-les-servcies-card {
+    width: 48%;
+  }
+  .container__servcies-infos {
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    padding-bottom: 2rem;
+  }
+  .container__about-infos {
+    display: block;
+  }
+  .container__contact-all-img{
+    display: none;
+  }
+  .container__contact-all-form {
+    padding-bottom: 5rem;
+  }
+  .container__color-all-style-card {
+    width: 48%;
+  }
+  .container__color-all-typo {
+    flex-direction: column;
+  }
+  .container__works-left {
+    display: none;
+  }
+  .container__works-right {
+    width: 100%;
+  }
+  .container__works {
+    margin-top: 0;
+  }
+}
+
+@media screen and (max-width: 842px) {
+  .container__about-chifres {
+    display: block;
+  }
+  .container__about-chifres-years, .container__about-chifres-projets, .container__about-chifres-clients {
+    width: auto;
+  }
+  .container__color-all-style-cards {
+    flex-wrap: wrap;
+}
+}
+
+@media screen and (max-width: 530px) {
+    .container__header-decoration-line{
+        display: none;
+    }
+    .container__servcies-les-servcies-card {
+      width: auto;
+    }
+    .container__servcies-cards {
+      flex-wrap: wrap;
+      flex-direction: column;
+  }
+  .btn-footer {
+    width: auto;
+}
+}
