@@ -1,0 +1,37 @@
+<%- include('partials/header') %>
+<%- include('partials/menu-nav') %>
+<%- include('partials/menu-burger') %>
+<%- include('partials/breadcrumb-works') %>
+
+<section class="container__mot taille-grille">
+    <div class="container__mot-left">
+
+    </div>
+    <div class="container__mot-right">
+        <p class="container__mot-right-subtitle sub-title">A propos de moi</p>
+        <div class="border"></div>
+        <h2 class="container__mot-right-title-h2 title-h2">Quelques mots sur moi</h2>
+        <p class="container__mot-right-text"> 
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh. Proin scelerisque nisl ac ante hendrerit posuere. Integer porttitor risus rutrum urna porttitor, sit amet interdum orci mattis. Pellentesque habitant morbi
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh. Proin scelerisque nisl ac ante hendrerit posuere. Integer porttitor risus rutrum urna porttitor, sit amet interdum orci mattis. Pellentesque habitant morbi
+        </p>
+        <button class="container__header-text-btn btn btn-blanc" onclick="window.location.href = '/resume';">Voir mon cv<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+</section>
+
+<%- include('partials/about') %>
+<div class="margin"></div>
+
+<section class="container__title-real taille-grille">
+    <div class="container__title-real-left">
+        <p class="container__title-real-left-subtitle sub-title">réalisations</p>
+        <div class="border"></div>
+        <h2 class="container__title-real-left-title-h2 title-h2">Quelques réalisations</h2>
+    </div>
+    <div class="container__title-real-right">
+        <button class="container__header-text-btn btn btn-blanc" onclick="window.location.href = '/works';">Voir toutes mes réalisations<i class="fa-solid fa-arrow-right"></i></button>
+    </div>
+</section>
+
+<%- include('partials/realisations') %>
+<%- include('partials/footer') %>

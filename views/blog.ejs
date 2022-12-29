@@ -1,0 +1,21 @@
+<%- include('partials/header') %>
+<%- include('partials/menu-nav') %>
+<%- include('partials/menu-burger') %>
+<%- include('partials/breadcrumb-works') %>
+
+<section class="container__articles taille-grille">
+
+    <% for (const article of articles) { %>
+    <div class="container__article">
+        <div class="container__article-img" style="background-image:url(<%=article.img%>);"></div>
+        <div class="container__article-infos">
+            <p class="container__article-infos-category"><%=article.category%></p>
+            <h2 class="container__article-infos-title"><%=article.title%></h2>
+            <p class="container__article-infos-text"><%=article.text%></p>
+            <a class="container__article-infos-a" href="/blog/<%=article.url%>">En savoir plus<i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </div>
+    <% } %>
+</section>
+
+<%- include('partials/footer') %>

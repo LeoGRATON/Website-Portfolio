@@ -5,11 +5,11 @@
         <div class="container__footer-1-4">
             <h5 class="container__footer-1-4-title-h5 title-h5">Navigation</h5>
             <div class="container__footer-1-4-link">
-                <a href="#" class="container__footer-1-4-link-a footer-link">Accueil</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link">My work</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link">Resume</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link">Blog - Actualités</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link">Contact</a>
+                <a href="/" class="container__footer-1-4-link-a footer-link">Accueil</a>
+                <a href="/works" class="container__footer-1-4-link-a footer-link">My work</a>
+                <a href="/resume" class="container__footer-1-4-link-a footer-link">Resume</a>
+                <a href="/blog" class="container__footer-1-4-link-a footer-link">Blog - Actualités</a>
+                <a href="/contact" class="container__footer-1-4-link-a footer-link">Contact</a>
             </div>
         </div>
         <!-- FOOTER 1-4 -->
@@ -35,13 +35,9 @@
         <div class="container__footer-1-4">
             <h5 class="container__footer-1-4-title-h5 title-h5">Derniers articles</h5>
             <div class="container__footer-1-4-link">
-                <a href="#" class="container__footer-1-4-link-a footer-link actus">Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit.</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link actus">Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit.</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link actus">Lorem ipsum dolor sit amet, consectetur 
-                    adipiscing elit.</a>
-
+                <% for (let index = 0; index < 3; index++) { %>
+                <a href="/blog/<%=articles[index].url%>" class="container__footer-1-4-link-a footer-link actus"><%=articles[index].title%></a>
+                <% } %>    
             </div>
         </div>
         <!-- FOOTER 1-4 -->
@@ -50,11 +46,9 @@
         <div class="container__footer-1-4">
             <h5 class="container__footer-1-4-title-h5 title-h5">My work</h5>
             <div class="container__footer-1-4-link">
-                <a href="#" class="container__footer-1-4-link-a footer-link">Woodup</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link">Dodai</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link">Lou Garu</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link">JardiPrix</a>
-                <a href="#" class="container__footer-1-4-link-a footer-link">Veuve amiot</a>
+                <% for (let index = 0; index < 5; index++) { %>
+                <a href="/works/<%=works[index].url%>" class="container__footer-1-4-link-a footer-link"><%=works[index].title%></a>
+                <% } %>
             </div>
         </div>
         <!-- FOOTER 1-4 -->

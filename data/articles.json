@@ -1,0 +1,30 @@
+[
+  {
+    "url": "tendance-du-web-2023",
+    "img": "/integration/blog/tendances-web-2023.jpg",
+    "category": "design",
+    "title": "Les tendances UX/UI Design",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "url": "les-bonnes-pratiques-seo",
+    "img": "/integration/blog/bonnes-pratique-seo.jpg",
+    "category": "seo",
+    "title": "Les bonnes pratiques SEO",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "url": "tendance-du-web-2023",
+    "img": "/integration/blog/tendances-web-2023.jpg",
+    "category": "design",
+    "title": "Les tendances UX/UI Design",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  },
+  {
+    "url": "les-bonnes-pratiques-seo",
+    "img": "/integration/blog/bonnes-pratique-seo.jpg",
+    "category": "seo",
+    "title": "Les bonnes pratiques SEO",
+    "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit."
+  }
+]

@@ -458,7 +458,7 @@
 
 /* SECTION PRESENTATION */
 .container__presantation{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/integration/home/img-presentation.jpg');
+    background-image:url('/integration/home/img-presentation.jpg');
     height: 600px;
     width: 100%;
     background-position: center;
@@ -854,3 +854,85 @@ padding-bottom: 2rem;
     justify-content: center;
 }
 
+
+/* PAGES A PROPOS */
+.container__mot{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+    gap: 4rem;
+}
+.container__mot-left{
+    background-image: url('/integration/a-propos/img-mot.jpg');
+    width: 50%;
+    height: 800px;
+}
+.container__mot-right{
+    color: var(--white);
+    width: 50%;
+}
+.container__mot-right-subtitle{
+    padding-bottom: 2rem;
+}
+.container__mot-right-title-h2{
+    padding: 2rem 0 2rem;
+}
+.container__mot-right-text{
+    padding-bottom: 2rem;
+}
+.container__title-real-left{
+    color: var(--white);
+}
+.container__title-real-left-subtitle{
+    padding-bottom: 2rem;
+}
+.container__title-real-left-title-h2{
+    padding: 2rem 0 2rem;
+}
+.container__title-real{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.margin{
+    margin-bottom: 7rem;
+}
+
+.container__article{
+    color: var(--white);
+    margin-bottom: 2rem;
+    width: 48%;
+}
+.container__article-img{
+    height: 450px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.container__articles{
+    margin-top: 7rem;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+}
+.container__article-infos-category{
+    text-transform: uppercase;
+    padding: 2rem 0 1rem;
+    color: var(--grey-blue);
+}
+.container__article-infos-title{
+    font-family: var(--Playfair);
+    font-size: 50px;
+    padding: 0 0 1rem;
+}
+.container__article-infos-text{
+    padding-bottom: 1rem;
+}
+.container__article-infos-a{
+    text-decoration: none;
+    color: var(--white);
+    text-transform: uppercase;
+}
+.container__article-infos-a:hover{
+    color: var(--blue);
+}
