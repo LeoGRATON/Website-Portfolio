@@ -145,7 +145,7 @@
 .text-big{
     font-weight: 700;
     font-size: 28px;
-    background-image: url('/integration/quote.png');
+    background-image: url('/integration/elements/quote.png');
     background-repeat: no-repeat;
 }
 .sub-chifres{
@@ -167,9 +167,11 @@
 }
 .name-color{
     text-transform: uppercase;
+    text-shadow: 0px 0px 10px #191716;
 }
 .code-hexa{
     text-transform: uppercase;
+    text-shadow: 0px 0px 10px #191716;
 }
 .title-typo{
     font-size: 50px;
@@ -236,7 +238,7 @@
     background-color: var(--black);
     z-index: 2;
     color:var(--white);
-    background-image: url('/integration/bg-nav.png');
+    background-image: url('/integration/elements/bg-nav.png');
     background-repeat: no-repeat;
     transform: translateX(100%);
     transition: 0.8s transform cubic-bezier(.47,0,.53,.99);
@@ -298,6 +300,9 @@
     align-items: center;
     padding: 2rem 0 3rem 0;
 }
+.container__menu-logo{
+    cursor: pointer;
+}
 .container__menu-rs{
     display: flex;
     gap: 20px;
@@ -329,7 +334,7 @@
     font-size: var(--text-18);
 }
 .container__header-right{
-    background-image: url('/integration/img-home.jpg');
+    background-image: url('/integration/home/img-home.jpg');
     background-repeat: no-repeat;
     min-width: 1211px;
     min-height: 100%;
@@ -373,7 +378,7 @@
     width: 143px;
 }
 .container__realisations-global-left-img{
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),center, url(./integration/img-real-1.png) ;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),center, url('./integration/home/img-realisations-atlanticraft.png') ;
     background-position: center;
     width: 975px;
     height: 800px;
@@ -453,7 +458,7 @@
 
 /* SECTION PRESENTATION */
 .container__presantation{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(/integration/img-presentation.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url('/integration/home/img-presentation.jpg');
     height: 600px;
     width: 100%;
     background-position: center;
@@ -635,9 +640,12 @@ padding-bottom: 2rem;
 
 /* WORKS */
 .container__works-left{
-    background-image: url(/integration/img-stareyes.jpg);
+    background-image: url('/integration/home/img-stareyes.jpg');
     width: 55%;
     height: 600px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container__works{
     margin-top: 7rem;
@@ -692,6 +700,7 @@ padding-bottom: 2rem;
     writing-mode: vertical-rl;
     font-size: 95px;
     font-family: var(--Playfair);
+    font-weight: 700;
 }
 .container__maquette-img{
     display: flex;
@@ -722,8 +731,6 @@ padding-bottom: 2rem;
 .container__color-all-style-card{
     width: 20%;
     height: 250px;
-    background-color: #2A82DA;
-    border-radius: 20px;
 }
 .container__color-all-style-cards{
     display: flex;
@@ -810,6 +817,9 @@ padding-bottom: 2rem;
 .container__page-work-card{
     width: 32%;
     height: 500px;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .container__page-work-card-display{
     display: flex !important;
@@ -832,5 +842,15 @@ padding-bottom: 2rem;
 .container__page-work-card-display-title{
     font-size: 32px;
     font-family: var(--Playfair);
+}
+.container__page-work-card-display-a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    align-items: center;
+    color: var(--white);
+    width: 100%;
+    height: 100%;
+    justify-content: center;
 }
 

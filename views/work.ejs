@@ -3,13 +3,13 @@
 <%- include('partials/menu-burger') %>
 <%- include('partials/breadcrumb') %>
 <section class="container__works taille-grille">
-    <div class="container__works-left">
+    <div class="container__works-left" style="background-image: url('<%=workName.bgImg%>');">
         <div class="container__works-left-text">
            <span class="container__works-left-text-span">Le projet</span>
         </div>
     </div>
     <div class="container__works-right">
-        <h2 class="container__works-right-h2 title-h2">A propos de Stareyes</h2>
+        <h2 class="container__works-right-h2 title-h2">A propos de <%=workName.title%></h2>
         <p class="container__works-right-text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh. Proin scelerisque nisl ac ante hendrerit posuere. Integer porttitor risus rutrum urna porttitor, sit amet interdum orci mattis. Pellentesque habitant morbi
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh. Proin scelerisque nisl ac ante hendrerit posuere. Integer porttitor risus rutrum urna porttitor, sit amet interdum orci mattis. Pellentesque habitant morbi</p>
     </div>
@@ -18,10 +18,10 @@
     <div class="container__maquette-all taille-grille">
         <div class="container__maquette-title">
             <div class="container__maquette-title-border"></div>
-            <span class="container__maquette-title-text">Maquette</span>
+            <span class="container__maquette-title-text"><%=workName.type%></span>
         </div>
         <div class="container__maquette-img">
-            <img src="/integration/maquette-stareyes.png" alt="apercu de la maquette" class="container__maquette-img-width">
+            <img src="<%=workName.img%>" alt="apercu de la maquette" class="container__maquette-img-width">
             <button class="btn btn-black">Découvrir le site web<i class="fa-solid fa-arrow-right"></i></button>
         </div>
     </div>
@@ -32,53 +32,26 @@
             <div class="container__color-all-style-title">Les styles</div>
             <!-- CARDS COLOR -->
             <div class="container__color-all-style-cards">
+                <% for (const color of workName.style) { %>
                 <!-- CARD COLOR -->
                 <div class="container__color-all-style-card">
-                    <div class="container__color-all-style-card-container">
-                        <span class="name-color">Bleu</span>
-                        <span class="code-hexa">#BED630</span>
+                    <div class="container__color-all-style-card-container" style="background-color:<%=color.hexa%>">
+                        <span class="name-color"><%=color.titleColor%></span>
+                        <span class="code-hexa"><%=color.hexa%></span>
                     </div>
                 </div>
                 <!-- CARD COLOR -->
-
-                <!-- CARD COLOR -->
-                <div class="container__color-all-style-card">
-                    <div class="container__color-all-style-card-container" style="background-color: #1d1d1d;">
-                        <span class="name-color">Noir</span>
-                        <span class="code-hexa">#1D1D1D</span>
-                    </div>
-                </div>
-                <!-- CARD COLOR -->
-
-                <!-- CARD COLOR -->
-                <div class="container__color-all-style-card black">
-                    <div class="container__color-all-style-card-container" style="background-color: #f2f2f2;">
-                        <span class="name-color">Gris</span>
-                        <span class="code-hexa">#F2F2F2</span>
-                    </div>
-                </div>
-                <!-- CARD COLOR -->
-
-                <!-- CARD COLOR -->
-                <div class="container__color-all-style-card black">
-                    <div class="container__color-all-style-card-container" style="background-color: #fff;">
-                        <span class="name-color">Blanc</span>
-                        <span class="code-hexa">#FFFFFF</span>
-                    </div>
-                </div>
-                <!-- CARD COLOR -->
+                <% } %>
             </div>
             <!-- CARDS COLOR -->
         </div>
         <div class="container__color-all-typo">
-            <div class="container__color-all-typo-1">
-                <h3 class="container__color-all-typo-1-title title-typo">Gilroy ExtraBold</h3>
-                <p class="container__color-all-typo-1-text text-typo">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz 1234567890 !$&)ç(‘(-</p>
+            <% for (const typo of workName.typo) { %>
+            <div class="container__color-all-typo-1" style="font-family:<%=typo.family%>">
+                <h3 class="container__color-all-typo-1-title title-typo" style="font-weight:<%=typo.weight%>"><%=typo.titleTypo%></h3>
+                <p class="container__color-all-typo-1-text text-typo" style="font-weight:<%=typo.weight%>">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz 1234567890 !$&)ç((-</p>
             </div>
-            <div class="container__color-all-typo-2">
-                <h3 class="container__color-all-typo-2-title title-typo">Gilroy Light</h3>
-                <p class="container__color-all-typo-2-text text-typo">Aa Bb Cc Dd Ee Ff Gg Hh Ii Jj Kk Ll Mm Nn Oo Pp Qq Rr Ss Tt Uu Vv Ww Xx Yy Zz 1234567890 !$&)ç(‘(-</p>
-            </div>
+            <% } %>
         </div>
     </div>
 </section>

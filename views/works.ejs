@@ -1,17 +1,17 @@
 <%- include('partials/header') %>
 <%- include('partials/menu-nav') %>
 <%- include('partials/menu-burger') %>
-<%- include('partials/breadcrumb') %>
-
-<script src="/js/app-works.js"></script>
+<%- include('partials/breadcrumb-works') %>
 
 <section class="container__page-works taille-grille">
     <div class="container__page-work-cards">
         <% for (const work of works) { %>
         <div class="container__page-work-card" style="background-image: url(<%=work.bgImg%>);">
             <div class="container__page-work-card-display">
-                <p class="container__page-work-card-display-category"><%=work.category%></p>
-                <h2 class="container__page-work-card-display-title"><%=work.title%></h2>
+                <a href="/works/<%=work.url%>" class="container__page-work-card-display-a">
+                    <p class="container__page-work-card-display-category"><%=work.category%></p>
+                    <h2 class="container__page-work-card-display-title"><%=work.title%></h2>
+                </a>
             </div>
         </div>
         <% } %>

@@ -1,23 +1,410 @@
 [
-    {
-      "title": "Stareyes",
-      "bgImg": "/integration/works/work-stareyes.jpg",
-      "category": "UX Design"
-    },
-    {
-        "title": "Woodup",
-        "bgImg": "/integration/works/work-woodup.jpg",
-        "category": "UX Design"
-    },
-    {
-        "title": "Atlanticraft",
-        "bgImg": "/integration/works/work-atlanticraft.jpg",
-        "category": "UX Design"
-    },
-    {
-        "title": "Dodai",
-        "bgImg": "/integration/works/work-dodai.jpg",
-        "category": "UX Design"
-    }
-  ]
-  
+  {
+    "url": "stareyes",
+    "path": ["work", "stareyes"],
+    "title": "Stareyes",
+    "type": "Maquette",
+    "img": "/integration/works/maquettes/maquette-stareyes.png",
+    "titleImg": "/integration/works/bg-title/img-real-stareyes.jpg",
+    "bgImg": "/integration/works/work-stareyes.jpg",
+    "style": [
+      {
+        "titleColor": "bleu",
+        "hexa": "#2A82DA"
+      },
+      {
+        "titleColor": "noir",
+        "hexa": "#1d1d1d"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#f2f2f2"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Gilroy ExtraBold",
+        "family": "Roboto",
+        "weight": "700"
+      },
+      {
+        "titleTypo": "Gilroy Light",
+        "family": "Roboto",
+        "weight": "400"
+      }
+    ],
+    "category": "UX Design"
+  },
+  {
+    "url": "dodai",
+    "path": ["work", "dodai"],
+    "title": "Dodai",
+    "type": "Maquette",
+    "img": "/integration/works/maquettes/maquette-dodai.jpg",
+    "titleImg": "/integration/works/bg-title/img-real-dodai.jpg",
+    "bgImg": "/integration/works/work-dodai.jpg",
+    "style": [
+      {
+        "titleColor": "rouge",
+        "hexa": "#D82020"
+      },
+      {
+        "titleColor": "noir",
+        "hexa": "#161616"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#707070"
+      },
+      {
+        "titleColor": "gris clair",
+        "hexa": "#E5E5E5"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Outfit Regular",
+        "family": "Outfit",
+        "weight": "400"
+      },
+      {
+        "titleTypo": "Barlow Bold",
+        "family": "Barlow",
+        "weight": "800"
+      }
+    ],
+    "category": "UI Design"
+  },
+  {
+    "url": "atlanticraft",
+    "path": ["work", "atlanticraft"],
+    "title": "Atlanticraft",
+    "type": "Maquette",
+    "img": "/integration/works/maquettes/maquette-atlanticraft.png",
+    "titleImg": "/integration/works/bg-title/img-real-atlanticraft.jpg",
+    "bgImg": "/integration/works/work-atlanticraft.jpg",
+    "style": [
+      {
+        "titleColor": "bleu",
+        "hexa": "#199BE5"
+      },
+      {
+        "titleColor": "noir",
+        "hexa": "#000000"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#F7F7F7"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Poppins Regular",
+        "family": "Poppins",
+        "weight": "400"
+      },
+      {
+        "titleTypo": "Poppins Bold",
+        "family": "Poppins",
+        "weight": "700"
+      }
+    ],
+    "category": "UI Design"
+  },
+  {
+    "url": "lou-garu",
+    "path": ["work", "lou garu"],
+    "title": "Loù Garu",
+    "type": "Maquette",
+    "img": "/integration/works/maquettes/maquette-lou-garu.png",
+    "titleImg": "/integration/works/bg-title/img-real-lou-garu.jpg",
+    "bgImg": "/integration/works/work-lou-garu.jpg",
+    "style": [
+      {
+        "titleColor": "bleu foncé",
+        "hexa": "#2C4460"
+      },
+      {
+        "titleColor": "bleu clair",
+        "hexa": "#68B0D0"
+      },
+      {
+        "titleColor": "noir",
+        "hexa": "#222222"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#7B8184"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Milonga",
+        "family": "Milonga",
+        "weight": "400"
+      },
+      {
+        "titleTypo": "Work sans medium",
+        "family": "Work sans",
+        "weight": "400"
+      }
+    ],
+    "category": "UX Design"
+  },
+  {
+    "url": "mon-bainiste",
+    "path": ["work", "mon bainsite"],
+    "title": "Mon bainsiste",
+    "type": "Maquette",
+    "img": "/integration/works/maquettes/maquette-mon-bainiste.png",
+    "titleImg": "/integration/works/bg-title/img-real-mon-bainiste.jpg",
+    "bgImg": "/integration/works/work-bainiste.jpg",
+    "style": [
+      {
+        "titleColor": "bleu foncé",
+        "hexa": "#222649"
+      },
+      {
+        "titleColor": "bleu clair",
+        "hexa": "#1886CB"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#f8f8f8"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Playfair Display Regular",
+        "family": "Playfair Display",
+        "weight": "400"
+      },
+      {
+        "titleTypo": "Poppins Regular",
+        "family": "Poppins",
+        "weight": "400"
+      }
+    ],
+    "category": "UX Design"
+  },
+  {
+    "url": "veuve-amiot",
+    "path": ["work", "veuve amiot"],
+    "title": "Veuve Amiot",
+    "type": "Maquette",
+    "img": "/integration/works/maquettes/maquette-veuve-amiot.png",
+    "titleImg": "/integration/works/bg-title/img-real-veuve-amiot.jpg",
+    "bgImg": "/integration/works/work-veuve-amiot.jpg",
+    "style": [
+      {
+        "titleColor": "bleu",
+        "hexa": "#03256E"
+      },
+      {
+        "titleColor": "noir",
+        "hexa": "#151515"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#707070"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Playfair Display Regular",
+        "family": "Playfair Display",
+        "weight": "400"
+      },
+      {
+        "titleTypo": "Lato Regular",
+        "family": "Lato",
+        "weight": "400"
+      }
+    ],
+    "category": "UI Design"
+  },
+  {
+    "url": "telelogos",
+    "path": ["work", "telelogos"],
+    "title": "Telelogos",
+    "type": "Maquette",
+    "img": "/integration/works/maquettes/maquette-telelogos.png",
+    "titleImg": "/integration/works/bg-title/img-real-telelogos.jpg",
+    "bgImg": "/integration/works/work-telelogos.jpg",
+    "style": [
+      {
+        "titleColor": "bleu foncé",
+        "hexa": "#24367B"
+      },
+      {
+        "titleColor": "bleu clair",
+        "hexa": "#158DC4"
+      },
+      {
+        "titleColor": "gris foncé",
+        "hexa": "#2e2e2e"
+      },
+      {
+        "titleColor": "gris clair",
+        "hexa": "#707070"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Poppins Regular",
+        "family": "Poppins",
+        "weight": "400"
+      },
+      {
+        "titleTypo": "Lato Light",
+        "family": "Lato",
+        "weight": "200"
+      }
+    ],
+    "category": "UX Design"
+  },
+  {
+    "url": "colocos",
+    "path": ["work", "logo colocos"],
+    "title": "Colocos",
+    "type": "Logo",
+    "img": "",
+    "titleImg": "",
+    "bgImg": "/integration/works/work-colocos.jpg",
+    "style": [
+      {
+        "titleColor": "bleu",
+        "hexa": "#2A82DA"
+      },
+      {
+        "titleColor": "noir",
+        "hexa": "#1d1d1d"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#f2f2f2"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Gilroy ExtraBold",
+        "family": "Roboto",
+        "weight": "700"
+      },
+      {
+        "titleTypo": "Gilroy Light",
+        "family": "Roboto",
+        "weight": "400"
+      }
+    ],
+    "category": "Logo"
+  },
+  {
+    "url": "monkeyco",
+    "path": ["work", "logo monkeyco"],
+    "title": "Monkeyco",
+    "type": "Logo",
+    "img": "",
+    "titleImg": "",
+    "bgImg": "/integration/works/work-monkeyco-logo.jpg",
+    "style": [
+      {
+        "titleColor": "bleu",
+        "hexa": "#2A82DA"
+      },
+      {
+        "titleColor": "noir",
+        "hexa": "#1d1d1d"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#f2f2f2"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Gilroy ExtraBold",
+        "family": "Roboto",
+        "weight": "700"
+      },
+      {
+        "titleTypo": "Gilroy Light",
+        "family": "Roboto",
+        "weight": "400"
+      }
+    ],
+    "category": "Logo"
+  },
+  {
+    "url": "logo-dodai",
+    "path": ["work", "logo dodai"],
+    "title": "Logo dodai",
+    "type": "Logo",
+    "img": "",
+    "titleImg": "",
+    "bgImg": "/integration/works/work-dodai-logo.jpg",
+    "style": [
+      {
+        "titleColor": "bleu",
+        "hexa": "#2A82DA"
+      },
+      {
+        "titleColor": "noir",
+        "hexa": "#1d1d1d"
+      },
+      {
+        "titleColor": "gris",
+        "hexa": "#f2f2f2"
+      },
+      {
+        "titleColor": "blanc",
+        "hexa": "#ffffff"
+      }
+    ],
+    "typo": [
+      {
+        "titleTypo": "Gilroy ExtraBold",
+        "family": "Roboto",
+        "weight": "700"
+      },
+      {
+        "titleTypo": "Gilroy Light",
+        "family": "Roboto",
+        "weight": "400"
+      }
+    ],
+    "category": "Logo"
+  }
+]
