@@ -1,0 +1,19 @@
+.reveal-right{
+    opacity: 0;
+    transform: translateX(1000px);
+}
+.reveal-right-visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}
+
+.reveal-left{
+    opacity: 0;
+    transform: translateX(-300px);
+}
+.reveal-left-visible{
+    opacity: 1;
+    transform: translateX(0);
+    transition: 1s cubic-bezier(.5, 0, 0, 1);
+}

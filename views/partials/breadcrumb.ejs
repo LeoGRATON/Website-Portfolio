@@ -1,13 +1,11 @@
-<section class="container__breadcrumb" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(<%=workName.titleImg%>);">
+<section class="container__breadcrumb" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(<%=backgroundImg%>);">
     <div class="container__breadcrumb-all taille-grille">
         <div class="container__breadcrumb-all-span">
-            <span class="container__breadcrumb-all-span-alone span-breadcrumb">Home</span>
-            <% for (const path of paths) { %>
+            <span class="container__breadcrumb-all-span-alone span-breadcrumb"><a href="/">Home<i class="fa-solid fa-arrow-right" style="padding:0 20px 0 15px;"></i></a></span>
                 <span class="container__breadcrumb-all-span-alone span-breadcrumb"><%=path%></span>
-            <% } %>
         </div>
         <div class="container__breadcrumb-all-title">
-            <h1 class="title-breadcrumb"><%=workName.title%></h1>
+            <h1 class="title-breadcrumb"><%=name%></h1>
         </div>
     </div>
 </section>

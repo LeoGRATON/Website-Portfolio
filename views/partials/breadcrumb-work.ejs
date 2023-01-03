@@ -1,0 +1,12 @@
+<section class="container__breadcrumb" style="background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(<%=workName.titleImg%>);">
+    <div class="container__breadcrumb-all taille-grille">
+        <div class="container__breadcrumb-all-span">
+            <span class="container__breadcrumb-all-span-alone span-breadcrumb"><a href="/">Home<i class="fa-solid fa-arrow-right" style="padding:0 20px 0 10px;"></i></a></span>
+                <span class="container__breadcrumb-all-span-alone span-breadcrumb"><a href="/works"><%=workName.path[0]%><i class="fa-solid fa-arrow-right" style="padding:0 20px 0 10px;"></i></a></span>
+                <span class="container__breadcrumb-all-span-alone span-breadcrumb"><%=workName.path[1]%></span>
+        </div>
+        <div class="container__breadcrumb-all-title">
+            <h1 class="title-breadcrumb"><%=workName.title%></h1>
+        </div>
+    </div>
+</section>

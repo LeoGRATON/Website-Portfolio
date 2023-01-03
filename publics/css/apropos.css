@@ -1,0 +1,42 @@
+/* PAGES A PROPOS */
+.container__mot{
+    display: flex;
+    align-items: center;
+    margin-top: 7rem;
+    gap: 4rem;
+}
+.container__mot-left{
+    background-image: url('/integration/a-propos/img-mot.jpg');
+    width: 50%;
+    height: 800px;
+}
+.container__mot-right{
+    color: var(--white);
+    width: 50%;
+}
+.container__mot-right-subtitle{
+    padding-bottom: 2rem;
+}
+.container__mot-right-title-h2{
+    padding: 2rem 0 2rem;
+}
+.container__mot-right-text{
+    padding-bottom: 2rem;
+}
+.container__title-real-left{
+    color: var(--white);
+}
+.container__title-real-left-subtitle{
+    padding-bottom: 2rem;
+}
+.container__title-real-left-title-h2{
+    padding: 2rem 0 2rem;
+}
+.container__title-real{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.margin{
+    margin-bottom: 7rem;
+}

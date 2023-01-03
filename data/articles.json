@@ -2,27 +2,35 @@
   {
     "url": "tendance-du-web-2023",
     "img": "/integration/blog/tendances-web-2023.jpg",
+    "date": "01/01/23",
+    "author": "Léo GRATON",
     "category": "design",
-    "title": "Les tendances UX/UI Design",
+    "title": "Les tendances UX/UI Design 2023",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
     "url": "les-bonnes-pratiques-seo",
     "img": "/integration/blog/bonnes-pratique-seo.jpg",
+    "date": "02/01/23",
+    "author": "Léo GRATON",
     "category": "seo",
     "title": "Les bonnes pratiques SEO",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
-    "url": "tendance-du-web-2023",
+    "url": "tendance-du-web-2024",
     "img": "/integration/blog/tendances-web-2023.jpg",
+    "date": "03/01/23",
+    "author": "Léo GRATON",
     "category": "design",
-    "title": "Les tendances UX/UI Design",
+    "title": "Les tendances UX/UI Design 2024",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit."
   },
   {
-    "url": "les-bonnes-pratiques-seo",
+    "url": "les-bonnes-pratiques-seo-v2",
     "img": "/integration/blog/bonnes-pratique-seo.jpg",
+    "date": "04/01/23",
+    "author": "Léo GRATON",
     "category": "seo",
     "title": "Les bonnes pratiques SEO",
     "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam commodo ipsum ut purus molestie feugiat. Maecenas dolor mauris, sodales nec ultricies sit amet, fermentum in nibh Lorem ipsum dolor sit amet, consectetur adipiscing elit."

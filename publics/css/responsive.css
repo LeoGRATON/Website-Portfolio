@@ -102,6 +102,9 @@
   }
   .container__color-all-style-cards {
     flex-wrap: wrap;
+  }
+  .container__footer-1-4 {
+    width: 100%;
 }
 }
 

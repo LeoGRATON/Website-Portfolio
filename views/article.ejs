@@ -1,0 +1,16 @@
+<%- include('partials/header') %>
+<%- include('partials/menu-nav') %>
+<%- include('partials/menu-burger') %>
+<%- include('partials/breadcrumb-article') %>
+
+<section class="container__article-solo">
+    <div class="container__article-solo-infos">
+        <p class="container__article-solo-infos-info">Publié le <%=articleName.date%> par <%=articleName.author%></p>
+        <p class="container__article-solo-infos-categrory sub-title"><%=articleName.category%></p>
+        <h2 class="container__article-solo-infos-title title-h2"><%=articleName.title%></h2>
+        <p class="container__article-solo-infos-text"><%=articleName.text%></p>
+    </div>
+</section>
+
+<%- include('partials/contact') %>
+<%- include('partials/footer') %>

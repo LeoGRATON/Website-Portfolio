@@ -57,8 +57,3 @@ const app = {
 var numero = 0;
 app.init();
 
-const parallax = document.querySelector('.container__presantation');
-console.log(parallax);
-window.addEventListener('scroll', () => {
-    parallax.style.backgroundPositionY = -window.scrollY / 6 + "px";
-});

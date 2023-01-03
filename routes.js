@@ -7,7 +7,8 @@ const articles = require('./data/articles.json');
 router.get('/', (req, res) => {
     res.render('home', {
         works,
-        articles
+        articles,
+        cssFile: 'home.css'
     });
 });
 
@@ -17,7 +18,8 @@ router.get('/works', (req, res) => {
        name:'Toutes mes réalisations',
        backgroundImg: '/integration/works/img-works.jpg',
        works,
-       articles
+       articles,
+       cssFile: 'work.css'
     });
 });
 
@@ -27,14 +29,16 @@ router.get('/a-propos', (req, res) => {
        name:'A propos',
        backgroundImg:'/integration/works/img-works.jpg',
        works,
-       articles
+       articles,
+       cssFile: 'apropos.css'
     });
 });
 
 router.get('/resume', (req, res) => {
     res.render('resume', {
         articles,
-        works
+        works,
+        cssFile: null
     });
 });
 
@@ -44,7 +48,25 @@ router.get('/blog', (req, res) => {
        name:'Mes articles de blog',
        backgroundImg:'/integration/works/img-works.jpg',
        articles,
-       works
+       works,
+       cssFile: 'blog.css'
+    });
+});
+
+router.get('/blog/:article', (req, res) => {
+
+    const urlArticle = req.params.article;
+    const articleName = articles.find(article => article.url == urlArticle);
+    console.log(articleName);
+
+    res.render('article', {
+       path:'blog',
+       name:'Mes articles de blog',
+       backgroundImg:'/integration/works/img-works.jpg',
+       articles,
+       works,
+       articleName,
+       cssFile: 'blog.css'
     });
 });
 
@@ -54,7 +76,8 @@ router.get('/contact', (req, res) => {
        name:'Me contacter',
        backgroundImg:'/integration/works/img-works.jpg',
        works,
-       articles
+       articles,
+       cssFile: null
     });
 });
 
@@ -70,7 +93,8 @@ router.get('/works/:work', (req, res) => {
             paths,
             workName,
             works,
-            articles
+            articles,
+            cssFile: 'work.css'
         });
     }
     

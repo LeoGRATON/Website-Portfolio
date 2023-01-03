@@ -1,0 +1,19 @@
+/* BLOG */
+.container__article-solo{
+    width: 50%;
+    margin: auto;
+    color: var(--white);
+    margin-top: 7rem;
+}
+.container__article-solo-infos-info{
+    padding: 1rem 0 1rem;
+}
+.container__article-solo-infos-categrory{
+    color: var(--grey-blue);
+}
+.container__article-solo-infos-title{
+    padding-bottom: 1rem;
+}
+.container__article-solo-infos-text{
+    margin-bottom: 7rem;
+}
