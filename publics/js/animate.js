@@ -22,3 +22,11 @@ document.querySelectorAll('.reveal-right').forEach(function (r) {
 document.querySelectorAll('.reveal-left').forEach(function (r) {
     observer.observe(r)
 })
+
+const divRealisations = document.querySelector('.container__realisations-global-right');
+
+window.addEventListener('scroll', () => {
+    if(window.scrollY > 1050){
+        divRealisations.classList.add('realisations-visible');
+    }
+});

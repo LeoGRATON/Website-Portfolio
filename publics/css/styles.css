@@ -402,7 +402,10 @@ padding-bottom: 2rem;
 }
 .container__realisations-global-left{
     display: flex;
-    align-items: stretch;
+    align-items: center;
+}
+.container__realisations-global-left-text{
+    z-index: -1;
 }
 .container__realisations-global{
     display: flex;
@@ -413,6 +416,8 @@ padding-bottom: 2rem;
     justify-content: center;
     margin-left: -6rem;
     z-index: 1;
+    opacity: 0;
+    transform: translateX(100%);
 }
 .container__realisations-global-right-categories{
     background-color: var(--white);
